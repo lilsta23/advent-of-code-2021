@@ -8,7 +8,6 @@ def process_depth_measurement_increase():
     result = sum(map(increase_incr, zip(depth_list, depth_list[1:])))
     print(result)
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     process_depth_measurement_increase()
-
-
